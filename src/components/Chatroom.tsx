@@ -177,7 +177,7 @@ export default function Chatroom({ onBackToDashboard, onNavigateToHotlines }: Ch
   }, [messages, settings.soundEffects]);
 
   useEffect(() => {
-    localStorage.setItem("ozy_chat_history", JSON.stringify(messages));
+    sessionStorage.setItem("ozy_chat_history", JSON.stringify(messages));
   }, [messages]);
 
   useEffect(() => {
@@ -399,7 +399,7 @@ export default function Chatroom({ onBackToDashboard, onNavigateToHotlines }: Ch
               Ozy
               <span className="inline-block w-1.5 h-1.5 bg-gray-400 dark:bg-gray-500" />
             </h3>
-            <span className="text-[10px] text-gray-500 dark:text-gray-400 font-medium">Teks placeholder untuk deskripsi chatbot</span>
+            <span className="text-[10px] text-gray-500 dark:text-gray-400 font-medium">Teman curhat virtual Anda</span>
           </div>
         </div>
 
@@ -505,7 +505,7 @@ export default function Chatroom({ onBackToDashboard, onNavigateToHotlines }: Ch
                         Peringatan Himbauan Konselor:
                       </div>
                       <p className="text-[10.5px] text-gray-700 dark:text-gray-300 leading-relaxed font-sans">
-                        Teks placeholder untuk deskripsi chatbot, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Sistem mendeteksi indikasi stres berat. Silakan hubungi kontak darurat di menu Kontak Konseling untuk bantuan profesional.
                       </p>
                     </div>
                   )}
@@ -545,8 +545,8 @@ export default function Chatroom({ onBackToDashboard, onNavigateToHotlines }: Ch
             <div className="flex items-start gap-1.5">
               <WireframeIcon className="w-4 h-4 flex-shrink-0 text-gray-300 mt-0.5" />
               <div className="flex-1 font-sans">
-                <span className="font-bold block">🚨 Peringatan Wireframe Placeholder</span>
-                Teks placeholder untuk deskripsi chatbot. Ut enim ad minim veniam.
+                <span className="font-bold block">🚨 Butuh Bantuan Lebih Lanjut?</span>
+                Anda tidak sendirian. Silakan akses menu Kontak Konseling untuk menghubungi layanan bantuan klinis terpercaya.
               </div>
             </div>
           </motion.div>

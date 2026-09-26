@@ -111,7 +111,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Tema Tampilan</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Data obrolan dan pengaturan hanya disimpan di perangkatmu.
+                        Pilih tema warna untuk antarmuka
                       </p>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Filter Kata Kasar</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Pilih tema warna untuk antarmuka
+                        Sensor kata kasar dalam balasan
                       </p>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Efek Suara</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Sensor kata kasar dalam balasan
+                        Putar suara saat pesan baru diterima
                       </p>
                     </div>
                   </div>
@@ -181,7 +181,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Teks Besar</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Putar suara saat pesan baru diterima
+                        Perbesar ukuran teks agar lebih mudah dibaca
                       </p>
                     </div>
                   </div>
@@ -196,7 +196,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Animasi Latar</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Perbesar ukuran teks agar lebih mudah dibaca
+                        Tampilkan animasi visual yang menenangkan
                       </p>
                     </div>
                   </div>
@@ -210,7 +210,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Kutipan Penyemangat</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Tampilkan animasi visual yang menenangkan
+                        Tampilkan kutipan positif di chat
                       </p>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Saran Aktivitas</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Tampilkan kutipan positif di chat
+                        Tampilkan saran tindakan atau aktivitas
                       </p>
                     </div>
                   </div>
@@ -240,7 +240,7 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                     <div>
                       <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Analisis Sentimen (Debug)</h3>
                       <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                        Tampilkan saran tindakan atau aktivitas
+                        Tampilkan analisis sentimen internal di obrolan
                       </p>
                     </div>
                   </div>

@@ -29,7 +29,7 @@ export default function PrivacyModal({ isOpen, onClose }: PrivacyModalProps) {
               <WireframeIcon className="w-8 h-8 text-gray-500 dark:text-gray-400" />
             </div>
             
-            <h2 className="font-black text-xl text-gray-800 dark:text-gray-100 mb-2">100% Privat</h2>
+            <h2 className="font-black text-xl text-gray-800 dark:text-gray-100 mb-2">Privasi 100%</h2>
             
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
               Semua data percakapan Anda aman dan hanya disimpan secara lokal. <strong>Tidak ada data</strong> yang dikirim atau disimpan di server luar. 

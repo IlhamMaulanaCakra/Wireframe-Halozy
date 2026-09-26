@@ -51,7 +51,7 @@ export default function GuidelinesModal({ isOpen, onClose }: GuidelinesModalProp
                   <div>
                     <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Bukan Pengganti Psikolog</h3>
                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                      Penjelasan ringkas mengenai panduan aplikasi.
+                      Aplikasi ini adalah teman curhat AI, bukan pengganti konseling klinis atau psikolog profesional.
                     </p>
                   </div>
                 </div>
@@ -61,9 +61,9 @@ export default function GuidelinesModal({ isOpen, onClose }: GuidelinesModalProp
                     <WireframeIcon className="w-5 h-5 text-gray-500" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Bukan Pengganti Psikolog</h3>
+                    <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Kerahasiaan Percakapan</h3>
                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                      Penjelasan ringkas mengenai panduan aplikasi.
+                      Semua obrolan disimpan secara lokal di perangkat Anda dan tidak dikirim ke server luar.
                     </p>
                   </div>
                 </div>
@@ -73,9 +73,9 @@ export default function GuidelinesModal({ isOpen, onClose }: GuidelinesModalProp
                     <WireframeIcon className="w-5 h-5 text-gray-500" />
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Bukan Pengganti Psikolog</h3>
+                    <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Bantuan Profesional</h3>
                     <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-                      Teks keterangan tambahan untuk bantuan profesional klinis dan kontak darurat.
+                      Gunakan daftar kontak bantuan jika Anda memerlukan pertolongan darurat dari ahlinya.
                     </p>
                   </div>
                 </div>

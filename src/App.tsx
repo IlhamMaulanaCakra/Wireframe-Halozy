@@ -10,25 +10,17 @@ import { useSettings } from "./utils/SettingsContext";
 export default function App() {
   // Navigation View Tabs: "chat" (Default) | "hotlines"
   const [activeTab, setActiveTab] = useState<"chat" | "hotlines">("chat");
-  const [isGuidelinesOpen, setIsGuidelinesOpen] = useState(() => {
-    return sessionStorage.getItem('halozy_privacy_shown') && !sessionStorage.getItem('halozy_guidelines_shown');
-  });
+  const [isGuidelinesOpen, setIsGuidelinesOpen] = useState(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [isPrivacyOpen, setIsPrivacyOpen] = useState(() => {
-    return !sessionStorage.getItem('halozy_privacy_shown');
-  });
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(true);
   const { settings } = useSettings();
 
   const handleClosePrivacy = () => {
-    sessionStorage.setItem('halozy_privacy_shown', 'true');
     setIsPrivacyOpen(false);
-    if (!sessionStorage.getItem('halozy_guidelines_shown')) {
-      setIsGuidelinesOpen(true);
-    }
+    setIsGuidelinesOpen(true);
   };
 
   const handleCloseGuidelines = () => {
-    sessionStorage.setItem('halozy_guidelines_shown', 'true');
     setIsGuidelinesOpen(false);
   };
 
@@ -78,7 +70,7 @@ export default function App() {
               onClick={() => setIsPrivacyOpen(true)}
               className="flex items-center gap-1.5 text-[11px] font-bold text-gray-700 dark:text-gray-300 bg-gray-200 dark:bg-gray-800 border border-gray-400 dark:border-gray-600 px-3 py-1 rounded-none cursor-pointer"
             >
-              <span>100% Privat</span>
+              <span>Privasi 100%</span>
             </button>
           </div>
         </header>
